@@ -29,7 +29,7 @@ public class Interface extends JPanel{
     double val2 = bd.doubleValue();
     String val21 = Double.toString(val2);
     valorDivisaInput.setText(val21);
-    System.out.println("Rounded Double value: "+val2);
+    
   }
 
   public Interface() {
