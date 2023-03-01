@@ -3,12 +3,18 @@ Conversor de monedas en Java
 #Características 
 Permite el cambio De moneda entre varios tipos de divisas
 Permite hacer el cambio de moneda entre: 
-Dólar 
-Euros 
-Libras Esterlinas 
-Yen Japonés 
-Won surcoreano 
-Pesos Mexicanos
+<ol>
+<li>Dólar</li>
+<li>Euros</li>
+<li>Libras Esterlinas </li>
+<li>Yen Japonés </li>
+<li>Won surcoreano </li>
+<li>Pesos Mexicanos</li>
+</ol>
+
+
+
+
 ![imagen](https://user-images.githubusercontent.com/114122029/222034279-55059873-a0a3-4867-8eda-8ab4aad11f9f.png)
 
 #Manejo de errores  
