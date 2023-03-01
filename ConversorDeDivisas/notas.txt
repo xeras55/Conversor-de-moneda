@@ -1,0 +1,26 @@
+  private double valorDolar = 1;
+  private double valorPMexico = 18.44;
+  private double valorEuro = 0.95;
+  private double valorLibrasEsterlinas = 0.84;
+  private double valorYenJapones = 136.26;
+  private double valorWonsulcoreano = 1314.61;
+
+  String eur = "Euros";
+  String mxn = "Pesos Mexicanos";
+  String usd = "Dólar";
+  String libEst = "Libras Esterlinas";
+  String yen = "Yen Japonés";
+  String wob = "Won sur-coreano";
+
+  private double valorConvertirDe;
+  private double divisaAConvertir;
+  private double valorMonedaActualAConvertir;
+
+/*String vDO = valorDivisaOutput.getText();
+double stringTodouble1 = Double.parseDouble(vDO);
+div.setTasaDeCambioDestino(div.getValorEuro());
+div.setTasaDeCambioOrigen(div.getValorPMexico());
+div.setRes(stringTodouble1, div.getTasaDeCambioOrigen(), div.getTasaDeCambioDestino());
+div.getRes();
+String restoStringres = Double.toString(div.getRes());   
+valorDivisaInput.setText(restoStringres); */
