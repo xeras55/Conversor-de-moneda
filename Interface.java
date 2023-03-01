@@ -19,6 +19,7 @@ public class Interface extends JPanel{
 
 
   public void op(double tasadeCambioEntrada, double tasadCambioSalida){
+    try{
     Divisa div = new Operaciones();
     String vDO = valorDivisaOutput.getText();
     double stringTodouble1 = Double.parseDouble(vDO);
@@ -29,7 +30,10 @@ public class Interface extends JPanel{
     double val2 = bd.doubleValue();
     String val21 = Double.toString(val2);
     valorDivisaInput.setText(val21);
-    
+  }catch(Exception e) {
+    JOptionPane.showMessageDialog(jFrame, "Solo ingresa numeros");
+    valorDivisaOutput.setText(" ");
+}
   }
 
   public Interface() {
