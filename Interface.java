@@ -89,7 +89,7 @@ public class Interface extends JPanel{
           valorDivisaOutput.setText(restoString);
         }
         if (divisasAElegir.getSelectedIndex() == 0) {
-          valorDivisaOutput.setText("Selecciona algo mierda");
+          valorDivisaOutput.setText("Selecciona algun valor ");
         }
         
       } 
@@ -238,7 +238,7 @@ public class Interface extends JPanel{
           }
         }
         if (divisasAElegir1.getSelectedIndex() == 0) {
-          valorDivisaInput.setText("Selecciona algo mierda");
+          valorDivisaInput.setText("Selecciona algun valor ");
         }
       } 
     });
